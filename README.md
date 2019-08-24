@@ -1,2 +1,2 @@
-# jondalton.github.io
+# thejondalton.github.io
 A website I made.
