@@ -65,7 +65,7 @@ li {
     max-width: 1100px;
     margin: 0 auto; 
     padding-top: 0px;
-    padding-left: 5px;
+    /*padding-left: 5px;*/
     font-style: normal;
     font-size: 19px;
     line-height: 26px;
@@ -230,6 +230,7 @@ li:nth-child(8) a.nav:hover {
     display: block;
     margin: 0 auto;
     padding: 15px; 
+    width: auto;
 }
 
 .content2 {
@@ -237,6 +238,7 @@ li:nth-child(8) a.nav:hover {
     display: block;
     margin: 0 auto;
     padding: 15px;
+    width: auto;
 }
 
 .description1 {
@@ -276,11 +278,13 @@ h2 {
 
  @media (max-width: 766px) {
 
-    .content1 {
+.content1 {
     float: none;
     display: block;
     margin: 0 auto;
     padding: 15px; 
+    max-width: 600px;
+    width: auto;
 }
 
 .content2 {
@@ -288,6 +292,8 @@ h2 {
     display: block;
     margin: 0 auto;
     padding: 15px;
+    max-width: 600px;
+    width: auto;
 }
 
 .description1 {
@@ -334,6 +340,10 @@ h2 {
         font-size: 18px;
     }
 
+   a {
+    color: #6AA9FF;
+   }
+
     a.foot {
         text-decoration: none;
     }
@@ -359,7 +369,7 @@ h2 {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 
-    .content1 {
+.content1 {
     float: none;
     display: block;
     margin: 0 auto;
