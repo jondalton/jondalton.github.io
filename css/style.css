@@ -58,6 +58,10 @@ a {
     display: inline;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 li {
     font-family: 'Didact Gothic', sans-serif;
     font-size: 21px;
@@ -403,6 +407,7 @@ img:hover {
     }
 
     a {
+        font-size: 24px;
         display: block;
         margin: 0 auto;
         padding: 25px;
