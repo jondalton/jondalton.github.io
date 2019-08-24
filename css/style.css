@@ -370,3 +370,121 @@ img:hover {
 
   }
 
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    
+    a:hover + img,
+    img:hover {
+    display: none;
+    }
+
+    .house {
+        display: none;
+    }
+    .design {
+        display: none;
+    }
+    .video {
+        display: none;    
+    }
+    .games {
+        display: none;  
+    }
+    .sound {
+        display: none;   
+    }
+    .photo {
+        display: none;    
+    }
+    .about {
+        display: none;    
+    }
+
+    a {
+        display: block;
+        margin: 0 auto;
+        padding: 25px;
+        width: 95%;
+        background: none;
+        color: #6AA9FF;
+        border-left: solid #338BFF;
+        border-right: solid #338BFF;
+
+    }
+
+    a:hover {
+
+        text-decoration: none;
+        border-top: solid #338BFF;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    #mobileHeader {
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #mobileFooter #footerHouse {
+        display: block;
+        margin: 0 auto;
+        height: 70px;
+        width: 70px;
+        /*padding-bottom: 10px;*/
+/*        margin-bottom: 20px;
+        margin-left: 15px;*/
+        margin-top: -20px;
+    }
+
+    #home {
+        display: none;
+    }
+
+    span {
+        
+    }
+
+    li:nth-child(2) a {
+
+        height: 85px;
+
+    }
+
+        li:nth-child(3) a {
+
+        height: 85px;
+
+    }
+
+        li:nth-child(4) a {
+
+        height: 85px;
+
+    }
+
+        li:nth-child(5) a {
+
+        height: 85px;
+
+    }
+
+        li:nth-child(6) a {
+
+        height: 85px;
+
+    }
+
+        li:nth-child(7) a {
+
+        height: 85px;
+
+    }
+
+}
+

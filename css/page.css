@@ -354,3 +354,59 @@ h2 {
     width: 450px;
 
  }
+
+ @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .content1 {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    padding: 15px; 
+}
+
+.content2 {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.description1 {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+.description2 {
+    float: none;
+    display: block;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+br {
+    display: none;
+}
+
+h1 {
+    padding: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.aboutDes {
+    margin: 0 auto;
+    padding: 30px;
+    width: 550px;
+
+ }
+
+}
