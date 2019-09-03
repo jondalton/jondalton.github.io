@@ -1,0 +1,661 @@
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    /*margin: 0;*/
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#mainNav a {
+    		font-size: 21px;
+    		color: #6AA9FF;
+    	}
+
+#mainNav a:hover {
+    		color: #181818;
+    		background-color: #BEECFF;
+    		border-bottom: solid #338BFF;
+    	}
+#mainNav .JDactive {
+    		color: #181818;
+    		background-color: #BEECFF;
+    		border-bottom: solid #338BFF;
+    	}
+
+#mobilenav {
+    /*width: 100%;*/
+    text-align: center;
+    /*padding-right: 0;
+    margin-right: 0;*/
+}
+
+#mobilenav nav {
+    width: 100%;
+    /*text-align: center;*/
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#mobilenav a {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+
+#mobilenav a:hover {
+    color: #6AA9FF; 
+}
+
+#mobilenav .mobilebord {
+    background-color: rgb(121, 153, 166, 0.1);
+    /*border-top: solid #338BFF;
+    border-bottom: solid #338BFF;*/
+    padding: 50px;
+}
+
+#mobilenav #designthumb {
+    background-image: url(../content/designthumb.png);
+    background-size: cover;
+    background-position: center;    
+}
+
+#mobilenav #videothumb {
+    background-image: url(../content/videothumb.png);
+    background-size: cover;
+    /*background-position: center;    */
+}
+
+#mobilenav #gamesthumb {
+    background-image: url(../content/gamesthumb.png);
+    background-size: cover;
+    background-position: center;    
+}
+
+#mobilenav #soundthumb {
+    background-image: url(../content/soundthumb.png);
+    background-size: cover;
+    background-position: center;    
+}
+
+#mobilenav #photothumb {
+    background-image: url(../content/photothumb.png);
+    background-size: cover;
+    background-position: center;    
+}
+
+#mobilenav #aboutthumb {
+    background-image: url(../content/aboutthumb.png);
+    background-size: cover;
+    /*background-position: center;*/    
+}
+
+.footerlink {
+    text-decoration: none;
+    font-size: 26px;
+    padding:20px;
+    color: #6AA9FF; 
+}
+
+.footerlink:hover {
+    text-decoration: none;
+    font-size: 26px;
+    padding:20px;
+    color: black;
+}
+
+.JDbackground {
+    background-color: #E9F9FF;
+}
+
+.JDbanner {
+    background-color: #E9F9FF;
+    background-image: url(../content/webbanner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.house {
+    background: url(../content/house.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 292.6px;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+}
+
+.design {
+    background: url(../content/brush.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 355px;
+    height: 350px; 
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+  }
+.video {
+    background: url(../content/play.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 350px;
+    height: 350px;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+  }
+.games {
+    background: url(../content/laptop2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 350px;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;  
+  }
+.sound {
+    background: url(../content/mic.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 198.8px;
+    height: 350px;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+  }
+.photo {
+    background: url(../content/camera.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 350px;
+    height: 350px;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+  }
+.about {
+    background: url(../content/face.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 310.8px;
+    height: 350px;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+  }
+
+a.foot {
+    text-decoration: none;
+    }
+
+a.foot:visited {
+    color: #6AA9FF;
+    text-decoration: none;
+    }
+
+ a.foot:active {
+     color: #181818;
+
+    }
+
+#chap1 {
+    background: url(../content/chapbook1t.jpg);
+   /* background-size: cover;*/
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#chap1:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#chap2 {
+    background: url(../content/chapbook2t.jpg);
+   /* background-size: cover;*/
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    
+}
+
+#chap2:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#chap3 {
+    background: url(../content/chapbook3t.jpg);
+   /* background-size: cover;*/
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    
+}
+
+#chap3:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#chap4 {
+    background: url(../content/chapbook4t.jpg);
+   /* background-size: cover;*/
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    
+}
+
+#chap4:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#chap5 {
+    background: url(../content/chapbook5t.jpg);
+   /* background-size: cover;*/
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+
+}
+
+#chap5:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#accessHover {
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#accessHover:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);    
+}
+
+#resHover {
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#resHover:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);    
+}
+
+#coll1 {
+    background: url(../content/collage1t.jpg);
+   /* background-size: cover;*/
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#coll1:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#coll2 {
+    background: url(../content/collage2t.jpg);
+   /* background-size: cover;*/
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#coll2:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#coll3 {
+    background: url(../content/collage3t.jpg);
+   /* background-size: cover;*/
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#coll3:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#coll4 {
+    background: url(../content/collage4t.jpg);
+   /* background-size: cover;*/
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#coll4:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#coll5 {
+    background: url(../content/collage5t.jpg);
+   /* background-size: cover;*/
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#coll5:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#street1 {
+    background: url(../content/street1t.jpg);
+    background-size: cover;
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#street1:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#street2 {
+    background: url(../content/street2t.jpg);
+    background-size: cover;
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#street2:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#street3 {
+    background: url(../content/street3t.jpg);
+    background-size: cover;
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#street3:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#street4 {
+    background: url(../content/street4t.jpg);
+    background-size: cover;
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#street4:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#street5 {
+    background: url(../content/street5t.jpg);
+    background-size: cover;
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#street5:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#street6 {
+    background: url(../content/street6t.jpg);
+    background-size: cover;
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#street6:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#fin1 {
+    background: url(../content/final1t.jpg);
+    background-size: cover;
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#fin1:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#fin2 {
+    background: url(../content/final2t.jpg);
+    background-size: cover;
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#fin2:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#fin3 {
+    background: url(../content/final3t.jpg);
+    background-size: cover;
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#fin3:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}
+
+#fin4 {
+    background: url(../content/final4t.jpg);
+    background-size: cover;
+    background-position: center;
+    /*padding-bottom: 30%;*/
+    width: 130px;
+    height: 130px;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+#fin4:hover {
+    opacity: 0.5;
+    background-color: rgb(190, 236, 255, 0.3);
+}

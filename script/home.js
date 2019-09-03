@@ -6,7 +6,7 @@ var mic = document.getElementById("mic");
 var camera = document.getElementById("camera");
 var face = document.getElementById("face");
 
-var img = document.getElementsByTagName("div")[1];
+var img = document.getElementById("hoverChange");
 
 brush.addEventListener("mouseover", function() {
 	img.classList.remove("house");
