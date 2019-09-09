@@ -41,7 +41,7 @@ body {
     font-size: 26px;
 }
 
-#mobilenav a:hover {
+#mobilenav a:active {
     color: #6AA9FF; 
 }
 
@@ -97,6 +97,11 @@ body {
 
 .footerlink:hover {
     text-decoration: none;
+    color: #6AA9FF;
+}
+
+.footerlink:active {
+    text-decoration: none;
     font-size: 26px;
     padding:20px;
     color: black;
@@ -111,6 +116,16 @@ body {
     background-image: url(../content/webbanner.png);
     background-size: cover;
     background-position: center;
+}
+
+.JDwave {
+
+    padding: 15%;
+    background-image: url(../content/waveGif2.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
 }
 
 .house {
