@@ -38,25 +38,25 @@ laptop.addEventListener("mouseout", function() {
 	img.classList.remove("games");
 });
 
-mic.addEventListener("mouseover", function() {
-	img.classList.remove("house");
-	img.classList.add("sound");
-});
+// mic.addEventListener("mouseover", function() {
+// 	img.classList.remove("house");
+// 	img.classList.add("sound");
+// });
 
-mic.addEventListener("mouseout", function() {
-	img.classList.add("house");
-	img.classList.remove("sound");
-});
+// mic.addEventListener("mouseout", function() {
+// 	img.classList.add("house");
+// 	img.classList.remove("sound");
+// });
 
-camera.addEventListener("mouseover", function() {
-	img.classList.remove("house");
-	img.classList.add("photo");
-});
+// camera.addEventListener("mouseover", function() {
+// 	img.classList.remove("house");
+// 	img.classList.add("photo");
+// });
 
-camera.addEventListener("mouseout", function() {
-	img.classList.add("house");
-	img.classList.remove("photo");
-});
+// camera.addEventListener("mouseout", function() {
+// 	img.classList.add("house");
+// 	img.classList.remove("photo");
+// });
 
 face.addEventListener("mouseover", function() {
 	img.classList.remove("house");
